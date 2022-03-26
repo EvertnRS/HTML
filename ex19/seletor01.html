@@ -17,30 +17,40 @@
             color: rgb(105, 206, 172);
         }
         /*
-        Em HTML é id em CSS é #
-        Em HTML é class em CSS é . 
+        Em HTML é id em CSS é # só pode um elemento
+        Em HTML é class em CSS é . pode vários elementos
         */
         #principal {
+            color: rgb(67, 67, 255);
             text-align: center;
             font-size: 46px;
+        }
+        .basic {
+            color: rgb(4, 226, 4);
+        }
+        .inter {
+            color: rgb(245, 245, 20);
+        }
+        .avanc {
+            color: rgb(212, 39, 39);
         }
     </style>
 </head>
 <body>
     <h1 id="principal">Criando sites com HTML e CSS</h1>
     <h1>Aprendendo HTML</h1>
-    <h2>HTML Básico</h2>
+    <h2 class="basic">HTML Básico</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, consequuntur mollitia. Explicabo ducimus doloribus ullam quo officiis earum tempore ea. Unde rerum fugiat aut repellat itaque quisquam iste, sed saepe?</p>
-    <h2>HTML Intermediário</h2>
+    <h2 class="inter">HTML Intermediário</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quis labore autem maiores, fuga at fugit provident quae, animi magnam ullam vitae voluptatibus non odio enim nulla optio officiis! Sed?</p>
-    <h2>HTML Avançado</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam odio impedit voluptatem saepe quam eveniet, velit molestiae. Dolores consequuntur nulla rerum cum, quam saepe officiis porro, dolor doloribus voluptates ipsa.</p>
+    <h2 class="avanc">HTML Avançado</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <span class="avanc"><!--Span faz nada só é um trecho do texto-->Quisquam odio impedit</span> voluptatem saepe quam eveniet, velit molestiae. Dolores consequuntur nulla rerum cum, quam saepe officiis porro, dolor doloribus voluptates ipsa.</p>
     <h1>Aprendendo CSS</h1>
-    <h2>CSS Básico</h2>
+    <h2 class="basic">CSS Básico</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus fuga quaerat aut aliquam atque corporis iste delectus nulla eum magnam cum quis praesentium, nobis iure explicabo illo itaque perspiciatis.</p>
-    <h2>CSS Intermediário</h2>
+    <h2 class="inter">CSS Intermediário</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat tempore accusantium odio repudiandae dignissimos at deleniti praesentium voluptatem excepturi, sunt sit ex, explicabo consequuntur voluptas reiciendis iusto? Delectus, eum quos.</p>
-    <h2>CSS Avançado</h2>
+    <h2 class="avanc">CSS Avançado</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste velit nostrum quam quidem, possimus a rem sunt impedit, asperiores iure voluptatem autem eum accusamus exercitationem non doloribus voluptate adipisci!</p>
 </body>
 </html>
